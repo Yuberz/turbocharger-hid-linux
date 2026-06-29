@@ -5,7 +5,7 @@ This fork used AI in order to make the changes and the outcome was verified with
 
 ## Background
 This is a fork of [turbocharger-hid-linux](https://github.com/Z1ni/turbocharger-hid-linux) by Z1ni.
-The original fork worked amazingly however, some of the button mappings and knob mappings were less universal.
+The original fork worked amazingly, however some of the button mappings and knob mappings were less universal.
 
 For example, FX-R and BT-D were both mapped to B20 and B21 respectively as seen on [Hardware Tester](https://hardwaretester.com/gamepad).
 Additionally, the knobs are not treated like standard Axis inputs for controllers.
