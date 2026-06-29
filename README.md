@@ -19,7 +19,7 @@ This fork utilized AI in order to remap these inputs to more standardized button
 1. Download the latest version .zip from [this fork's releases](https://github.com/Yuberz/turbocharger-hid-linux/releases).
 2. Install DKMS if you do not already have it
 3. Exctract the archive to /usr/src
-4. Run `sudo dkms install -m hid-turbocharger -v {version}` where `{version}` is something like 1.1.0.
+4. Run `sudo dkms install -m hid-turbocharger -v 1.1.0`
 5. Verify that it was installed succesfully with `dkms status`
 6. Create a new udev rule: `sudo nano /etc/udev/rules.d/99-turbocharger.rules`
 7. Paste in this line `SUBSYSTEM=="input", ATTRS{idVendor}=="c252", ATTRS{idProduct}=="1f01", ENV{ID_INPUT_JOYSTICK}="1"`
